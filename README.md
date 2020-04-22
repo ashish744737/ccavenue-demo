@@ -8,10 +8,12 @@ File name is : CCAvenue_integration.xlxs
 
 steps to download and run the project :
 1. Download or clone the project
-2. Go to root directory add / create .env file same as .env.example file within folder.
+2. Go to root directory add / create .env file same as .env.example file within folder and add APP_URL according to your local host.
 3. update the composer by using the command : composer update
 4. generate app key by using command : php artisan key:generate
 5. Now run the project
+
+Steps are also given in CCAvenue_integration.xlxs.
 
 If you have any queries then contact me on email : ashish.pasekar@gmail.com
 
