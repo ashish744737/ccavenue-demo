@@ -94,22 +94,20 @@ class CheckoutController extends Controller
 
                 //below code is for payment success in ccavenue
 
-                // //$emails_to = ['support@renoraudio.com', 'caloramplification@gmail.com', 'aditya.prasad121@gmail.com', 'ansar1313@gmail.com','vikas@idigitalise.net','campaign@idigitalise.net','prasad.varun@gmail.com'];
-            
-                // $emails_to = ['rkv2025@gmail.com'];
-                        
+                //$emails_to = ['ashish.pasekar@gmail.com,test@test.com'];
+                            
                 // $data = Session::get('data');
                 
                 // Mail::send('ordermail', $data, function($message) use ($data, $emails_to){
-                //     $message->from('ashish.pasekar@gmail.com', 'Renor Audio');
-                //     $message->to($emails_to, $data['name'])->subject('New Order- Renor BT Power Cab');
+                //     $message->from('ashish.pasekar@gmail.com', 'CCAVENUE TEST');
+                //     $message->to($emails_to, $data['name'])->subject('New Order- from ccavenue');
                 // });
                 
                 // $emails_to_customer = Session::get('data')['email'];
                 
                 // Mail::send('ordermail', $data, function($message) use ($data, $emails_to_customer){
-                //     $message->from('ashish.pasekar@gmail.com', 'Renor Audio');
-                //     $message->to($emails_to_customer, $data['name'])->subject('New Order- Renor BT Power Cab');
+                //     $message->from('ashish.pasekar@gmail.com', 'CCAVENUE TEST');
+                //     $message->to($emails_to_customer, $data['name'])->subject('New Order- from ccavenue');
                 // });
                 
                 // $get_tid = Session::get('session_tnxno');
@@ -129,22 +127,21 @@ class CheckoutController extends Controller
           
         //below code is for payment cancel in ccavenue
 
-        //$emails_to = ['support@renoraudio.com', 'caloramplification@gmail.com', 'aditya.prasad121@gmail.com', 'ansar1313@gmail.com','vikas@idigitalise.net','campaign@idigitalise.net','prasad.varun@gmail.com'];
-        // $emails_to = ['rkv2025@gmail.com'];
+        //$emails_to = ['ashish.pasekar@gmail.com,test@test.com'];
         
         // $data = Session::get('data');
         
         // Mail::send('ordermailfailed', $data, function($message) use ($data, $emails_to){
-        //     $message->from('ashish.pasekar@gmail.com', 'Renor Audio');
-        //     $message->to($emails_to, $data['name'])->subject('Failed Order- Renor BT Power Cab');
+        //     $message->from('ashish.pasekar@gmail.com', 'CCAVENUE TEST');
+        //     $message->to($emails_to, $data['name'])->subject('Failed Order- from ccavenue');
         // });
         
         
         // $emails_to_customer = Session::get('data')['email'];
     
         // Mail::send('ordermailfailed', $data, function($message) use ($data, $emails_to_customer){
-        //     $message->from('ashish.pasekar@gmail.com', 'Renor Audio');
-        //     $message->to($emails_to_customer, $data['name'])->subject('Failed Order- Renor BT Power Cab');
+        //     $message->from('ashish.pasekar@gmail.com', 'CCAVENUE TEST');
+        //     $message->to($emails_to_customer, $data['name'])->subject('Failed Order- from ccavenue');
         // });
         
         // Session::forget('data');          
