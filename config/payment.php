@@ -17,9 +17,9 @@ return [
     
 
     'ccavenue' => [ // CCAvenue Parameters
-        'merchantId' => env('CCAVENUE_MERCHANT_ID', '184677'),
-        'accessCode' => env('CCAVENUE_ACCESS_CODE', 'AVIN79FG36BW94NIWB'),
-        'workingKey' => env('CCAVENUE_WORKING_KEY', '30137808FF803CB16956F032A4056DCC'),
+        'merchantId' => env('CCAVENUE_MERCHANT_ID', ''),
+        'accessCode' => env('CCAVENUE_ACCESS_CODE', ''),
+        'workingKey' => env('CCAVENUE_WORKING_KEY', ''),
 
         // Should be route address for url() function
         'redirectUrl' => env('CCAVENUE_REDIRECT_URL', 'payment/success'),
